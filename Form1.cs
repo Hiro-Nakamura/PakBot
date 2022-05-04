@@ -27,6 +27,8 @@ namespace PakTestWin
                 while (shouldRun)
                 {
                     Bot.Logic.PakUpdateWowInterface();
+                    Bot.Logic.PakUpdateIngame();
+                    
                     Thread.Sleep(300);
                 }
             });
